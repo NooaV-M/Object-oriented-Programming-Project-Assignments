@@ -1,0 +1,2 @@
+One everyday situation where we can make use of simulation testing is traffic planning. A public transit company can relatively easily aqquire traffic data and population and residency data, whereas a physical large scale test can be quite expensive. Especially for rail vehicles.
+Simulations can also account for shifting weather and climate patterns that would be unpredictable to test in a real world large scale test.
