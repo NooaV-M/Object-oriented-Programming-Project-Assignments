@@ -1,0 +1,1 @@
+A singleton object trafitionally cannot be created outside the singleton class, because the constructor is private by default.
