@@ -1,9 +1,9 @@
-package Task3;
-
-import java.time.Instant;
+package Task7;
 
 public class Clock {
     private static Clock instance;
+
+    private int currentTime;
 
     private Clock() {
         long currentTime = 0;
@@ -16,7 +16,12 @@ public class Clock {
         return instance;
     }
 
+    public int getTime() {
+        return currentTime;
+    }
 
-
+    public void changeTime(int time) {
+        this.currentTime += time;
+    }
 
 }
